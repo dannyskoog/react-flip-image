@@ -1,0 +1,20 @@
+.App {
+  display: grid;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.App h1 {
+  justify-self: center;
+  color: rgb(255, 105, 94, .9);
+  text-shadow: 2px 2px rgb(255, 105, 94, .3);
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: .3rem;
+}
+
+.App h1::first-letter {
+  font-size: 3rem;
+  color: rgb(255, 105, 94);
+  font-style: normal;
+}

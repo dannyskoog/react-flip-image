@@ -1,0 +1,12 @@
+.image-upload {
+  justify-self: center;
+  align-self: center;
+  background: rgb(255, 105, 94, .3);
+  padding: 1rem 1.6rem;
+  margin-bottom: 1.5rem;
+  border-radius: .3rem;
+}
+
+.image-upload input {
+  font-size: 1.1rem;
+}
